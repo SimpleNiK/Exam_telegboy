@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Что написал пользователь?</title>
+</head>
+<body>
+    <center><h1>Сообщения, отправленные SimpleNiKBot'у</h1></center>
+<hr>
+<p>{% for i in range (mssgs|length) %}
+    {{mssgs[i]}} <br>
+    {% endfor %}<p>
+</body>
+</html>
